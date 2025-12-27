@@ -1,9 +1,9 @@
 def test_student_details(usn, name, div, age):
     return {
-        "student_usn": str(usn),
+        "student_usn": (usn),
         "student_name": name,
         "student_div": div,
-        "student_age": str(age)
+        "student_age": (age)
     }
 
 
