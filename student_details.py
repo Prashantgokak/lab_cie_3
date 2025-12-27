@@ -1,11 +1,11 @@
-def student_details(usn, name, div, age):
-    result = (
-        f"Student USN = {usn}\n"
-        f"Student Name = {name}\n"
-        f"Student Division = {div}\n"
-        f"Student Age = {age}"
-    )
-    return result
+def test_student_details(usn, name, div, age):
+    return {
+        "student_usn": str(usn),
+        "student_name": name,
+        "student_div": div,
+        "student_age": str(age)
+    }
+
 
 if __name__ == "__main__":
-    print(student_details(302, "akash", "E", 19))
+    print(test_student_details(302, "akash", "E", 19))
