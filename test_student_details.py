@@ -1,4 +1,4 @@
-from test_student_details import test_student_details
+from student_details import test_student_details
 
 expected_output = {
     "student_usn": "302",
@@ -8,4 +8,5 @@ expected_output = {
 }
 
 assert test_student_details(302, "akash", "E", 19) == expected_output
+
 
