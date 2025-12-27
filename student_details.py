@@ -8,4 +8,8 @@ def test_student_details(usn, name, div, age):
 
 
 if __name__ == "__main__":
+    student usn ="302"
+    student name ="akash"
+    student div ="E"
+    student age="19" 
     print(test_student_details(302, "akash", "E", 19))
