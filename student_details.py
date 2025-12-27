@@ -1,4 +1,4 @@
-def test_student_details(usn, name, div, age):
+def student_details(usn, name, div, age):
     return {
         "student_usn": str(usn),
         "student_name": name,
@@ -8,8 +8,8 @@ def test_student_details(usn, name, div, age):
 
 
 if __name__ == "__main__":
-    student usn ="302"
-    student name ="akash"
-    student div ="E"
-    student age="19" 
-    print(test_student_details(302, "akash", "E", 19))
+    usn ="302"
+    name ="akash"
+    div ="E"
+    age="19" 
+    print(student_details(302, "akash", "E", 19))
