@@ -7,7 +7,8 @@ expected_output = {
     "student_age": "19"
 }
 
-assert test_student_details(302, "akash", "E", 19) == expected_output
+assert tstudent_details(302, "akash", "E", 19) == expected_output
+
 
 
 
