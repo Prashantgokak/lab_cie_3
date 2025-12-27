@@ -6,6 +6,6 @@ def student_details(usn, name,div,age):
         student AGE ="{age}";
     )
     return result 
-if __name__main__
-print(student_details(302,"akash","E",19))
+if __name__ == "__main__":
+ print(student_details(302,"akash","E",19))
 
